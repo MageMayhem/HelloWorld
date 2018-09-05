@@ -1,0 +1,23 @@
+// Program assignment #1
+#include <stdio.h>
+
+//funtion main begins program execution
+int main( void )
+{
+    int integer1, integer2, integer3; // all three numbers to be entered by user
+    
+    printf( "Enter first integer\n" ); // prompt
+    scanf( "%d", &integer1 ); // read an integer
+    
+    printf( "Enter second integer\n" ); // prompt
+    scanf( "%d", &integer2 ); // read an integer
+    
+    printf( "Enter third integer\n" ); // prompt
+    scanf( "%d", &integer3 ); // read an integer
+    
+    int sum; //variable in which sum will be stored
+    sum = integer1 + integer2 + integer3; // assign total to sum
+    
+    printf( "Sum is %d\n", sum ); // print sum
+    
+    
