@@ -15,9 +15,11 @@ int main( void )
     printf( "Enter third integer\n" ); // prompt
     scanf( "%d", &integer3 ); // read an integer
     
-    int sum; //variable in which sum will be stored
+    int sum; // variable in which sum will be stored
     sum = integer1 + integer2 + integer3; // assign total to sum
     
     printf( "Sum is %d\n", sum ); // print sum
     
+    int average; // variable in which average will be stored
+    average = 
     
