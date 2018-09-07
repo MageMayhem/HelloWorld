@@ -1,5 +1,6 @@
 // Program assignment #1
 #include <stdio.h>
+#include <math.h>
 
 //funtion main begins program execution
 int main( void )
@@ -21,5 +22,50 @@ int main( void )
     printf( "Sum is %d\n", sum ); // print sum
     
     int average; // variable in which average will be stored
-    average = 
+    average = integer1 + integer2 + integer3 / 3; // assign average
+    
+    printf( "Average is %d\n", average ); // print average
+    
+    int product; // variable in which product will be stored
+    product = integer1 * integer2 * integer3; // assign product
+    
+    printf( "Product is %d\n", product ); // print product
+    
+    if ( integer1 < integer2 ) {
+      if ( integer1 < integer3 ) {
+        printf ( "Smallest is %d\n", integer1 );
+      }
+    }
+    
+    if ( integer2 < integer1 ) {
+      if ( integer2 < integer3 ) {
+       printf ( "Smallest is %\n", integer2 );
+      }
+    }
+    
+    if ( integer3 < integer1 ) {
+     if ( integer3 < integer2 ) {
+      printf ( "Smallest is %d\n", integer3 );
+      }
+    }
+    
+    if ( integer1 > integer2 ) {
+     if ( integer1 > integer3 ) {
+      printf ( "Largest is %d\n", integer1 );
+      }
+    }
+    
+    if ( integer2 > integer1 ) {
+     if ( integer2 > integer3 ) {
+      printf ( "Largest %d\n", integer2 );
+      }
+    }
+    
+    if ( integer3 > integer1 ) {
+     if ( integer3 > integer2 ) {
+      printf ( "Largest is %d\n", integer3 );
+      }
+     }
+     
+     
     
